@@ -3,29 +3,28 @@ function Comp_Form()
     return (
         <header className="Comp_Form-header">
         <form action="/mian">
-            <h1>Form</h1>
+            <h1>Contact Us</h1>
             <p>
-                <label className="Comp_Form-Input" for="Name">Enter name</label>
+                <label className="Comp_Form-Input" for="Name">Enter Your Name</label>
                 <input id="Name" type="text" placeholder="Name" name="Name"/>
             </p>
             
             <p>
-                <label className="Comp_Form-Input" for="Designation">Enter Your Designation</label>
-                <input id="Designation" type="text" placeholder="Designation" name="Designation"/>
+                <label className="Comp_Form-Input" for="Email">Enter Your Email</label>
+                <input id="Email" type="text" placeholder="Email" name="Email"/>
             </p>
             
             <p>
-                <label className="Comp_Form-Input" for="Salary">Enter Your Salary</label>
-                <input id="Salary" type="text" placeholder="Salary" name="Salary"/>
+                <label className="Comp_Form-Input" for="Cell No">Enter Your Cell No</label>
+                <input id="Cell No" type="text" placeholder="Cell No" name="Cell No"/>
             </p>
 
             <p>
-                <label className="Comp_Form-Input" for="meal">Please select your meal</label>
-                <select name="meal" id="meal">
-                    <option value="fish">Fish</option>
-                    <option value="Chicken">Chicken</option>
-                    <option value="Lamb">Lamb</option>
-                    <option value="Beef">Beef</option>
+                <label className="Comp_Form-Input" for="Comm mode">Please select your Preferred way of Communication</label>
+                <select name="Comm mode" id="Comm mode">
+                    <option value="email">Email</option>
+                    <option value="text">Text</option>
+                    <option value="voice">Voice Call</option>
                 </select>
             </p>
             
