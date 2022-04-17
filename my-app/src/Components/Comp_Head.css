@@ -1,0 +1,40 @@
+.Comp_Head {
+    text-align: center;
+  }
+  
+  .Comp_Head-header {
+    
+    background-image: radial-gradient(rgb(87, 1, 1), rgb(1, 1, 65));
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2vmin);
+    color: white;
+    border: 15px solid rgb(4, 31, 4);
+  }
+  
+  .Comp_Head-link1 {
+    color: #dfd221;
+    width: 300px;
+    
+    padding: 5px;
+    margin: 20px;
+  }
+
+  .Comp_Head-link2 {
+    color: #a10a0a;
+    width: 300px;
+    
+    padding: 5px;
+    margin: 20px;
+  }
+
+  .Comp_Head-link3 {
+    color: #043192;
+    width: 300px;
+    
+    padding: 5px;
+    margin: 20px;
+  }
