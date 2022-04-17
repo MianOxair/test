@@ -1,9 +1,7 @@
 .Comp_Head {
     text-align: left;
   }
-  
   .Comp_Head-header {
-    
     background-image: radial-gradient(rgb(87, 1, 1), rgb(1, 1, 65));
     min-height: 10vh;
     display: flex;
@@ -14,50 +12,38 @@
     color: rgb(100, 119, 89);
     border: 15px solid rgb(4, 31, 4);
   }
-  
-  
-
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
-  
   li {
     float: left;
   }
-  
   li a {
     display: block;
     padding: 20px;
     
   }
-
   li a:hover {
     background-image: radial-gradient(rgb(51, 201, 71),rgb(185, 145, 145));
   }
-
   .Comp_Head-link1 {
     color: #e7d90a;
   }
-
   .Comp_Head-link2 {
     color: #a10a0a;
   }
-
   .Comp_Head-link3 {
     color: #034be7;
   }
-  
   .Comp_Head-link4 {
     color: #06f7eb;
   }
-
   .Comp_Head-link5 {
     color: #ffffff;
   }
-
   .Comp_Head-link6 {
     color: #f75e06;
   }

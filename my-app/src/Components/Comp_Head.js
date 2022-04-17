@@ -16,5 +16,4 @@ function Comp_Head()
         </header>
     );
 }
-
 export default Comp_Head;
